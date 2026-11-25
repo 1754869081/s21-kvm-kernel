@@ -1,6 +1,0 @@
-{
-  "name": "S21 KVM kernel build",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y wget curl git unzip bc bison flex libssl-dev libncurses-dev make cpio python3 gcc-aarch64-linux-gnu",
-  "remoteUser": "vscode"
-}
